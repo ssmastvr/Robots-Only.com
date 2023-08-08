@@ -1,0 +1,284 @@
+body{
+    font-family: 'Nova Oval', cursive;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    margin-bottom: 5;
+}
+
+header{
+    background-color: rgb(27, 27, 27);
+}
+
+.navbar{
+    font-family: 'Nova Oval', cursive;
+    position:relative;
+   left: 1550px;
+   top: -90px;
+   font-size: 2em;
+    font-weight: 400;
+   border-radius: 5px;
+   border: 3px solid;
+   border-color: white;
+   background-color: rgb(27, 27, 27);
+   color: white;
+   cursor: pointer;
+   transition: 0.7s;
+   padding-left: 10px;
+   padding-right: 10px;
+   text-decoration: none;
+}
+
+.navbar:hover{
+    letter-spacing: 1.0px;
+    border-color: rgb(255, 0, 242);
+    box-shadow: 0 0 40px rgb(255, 0, 242);
+    color: rgb(255, 0, 242);
+}
+
+
+
+.title{
+    color: white;
+    font-size: 4em;
+    width: 100px;
+    margin-top: 0%;
+    margin-left: 20px;
+    transition: 0.7s;
+    cursor: pointer;
+    margin-bottom: 0;
+    
+}
+
+.title:hover{
+    color: rgb(0, 255, 255);
+    text-shadow: 0 0 40px rgb(0, 255, 242);
+}
+
+.images{
+    position: relative;
+    top: 100px;
+    left: 100px;
+    height: 1100px;
+    border: 2px solid cyan;
+    transition: 1s;
+    border-radius: 10px;
+    transform: rotate(5deg);
+}
+
+.images:hover{
+  border: 25px solid cyan;
+  box-shadow: 0 0 60px cyan;
+  left: 90px;
+  border-radius: 100px;
+  transform: rotate(-5deg);
+}
+
+.AI-text{
+    position: relative;
+    top: -800px;
+    left: 450px;
+    font-size: 150px;
+    width:1000px;
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.AI-text:hover{
+  box-shadow: 0 0 100px rgb(255, 0, 255);
+  color: rgb(255, 0, 242);
+  border: 10px solid rgb(247, 0, 255);
+  text-shadow: 0 0 100px rgb(247, 0, 255);
+}
+
+.learn-button{
+    position: relative;
+    top: -840px;
+    left: 840px;
+    font-size: 2em;
+    width: 200px;
+    height: 80px;
+    font-weight: 700;
+    font-family: 'Nova Oval', cursive;
+    border-radius: 20px;
+    border: 7px solid rgb(247, 0, 255);
+    color: rgb(255, 0, 242);
+    transition: 0.4s;
+}
+
+.learn-button:hover{
+    border: 7px solid rgb(0, 247, 255);
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+    cursor: pointer;
+}
+
+.images-2{
+    position: relative;
+    top: -470px;
+    left: 0px;
+    height: 1260px;
+    border-radius: 30px;
+    border: 20px solid rgb(0, 247, 255);
+    box-shadow: 0 0 60px rgb(0, 247, 255);
+}
+
+.years{
+  position: relative;
+  top: -1700px;
+  left: 1100px;
+  transform: rotate(15deg);
+  font-size: 80px;
+  width: 800px;
+  transition: 0.5s;
+  
+}
+
+
+
+
+.year-1{
+    position: relative;
+    top: -2150px;
+    left: 100px;
+    height: 400px;
+    transform: rotate(5deg);
+    border-radius: 30px;
+    border: 10px solid rgb(247, 0, 255);
+    box-shadow: 0 0 20px rgb(247, 0, 255);
+}
+
+.year-2{
+    position: relative;
+    top: -1700px;
+    left: -40px;
+    height: 400px;
+    transform: rotate(5deg);
+    border-radius: 30px;
+    border: 10px solid rgb(247, 0, 255);
+    box-shadow: 0 0 20px rgb(247, 0, 255);
+}
+
+.year-3{
+    position: relative;
+    top: -1670px;
+    left: 1000px;
+    height: 400px;
+    transform: rotate(5deg);
+    border-radius: 30px;
+    border: 10px solid rgb(247, 0, 255);
+    box-shadow: 0 0 20px rgb(247, 0, 255);
+}
+
+.be-1{
+    position: relative;
+    top: -2620px;
+    left: 400px;
+    height: 400px;
+    transform: rotate(5deg);
+    font-size: 80px;
+}
+
+.be-2{
+    position: relative;
+    top: -2620px;
+    left: 800px;
+    height: 400px;
+    transform: rotate(5deg);
+    font-size: 80px;
+}
+
+
+.be-3{
+    position: relative;
+    top: -2640px;
+    left: 1300px;
+    height: 400px;
+    transform: rotate(5deg);
+    font-size: 80px;
+    width: 30px;
+    margin-left: 20px;
+}
+
+.form{
+    position: relative;
+    top: -3000px;
+    width: 600px;
+    font-size: 50px;
+    left: 700px;
+    transition: 0.5s;
+    
+}
+
+.form:hover{
+  color: aqua;
+  text-shadow: 0 0 20px aqua;
+  top: -2570;
+  font-size: 70px;
+}
+
+
+.Form-button{
+    position: relative;
+    top: -2950px;
+    left: 900px;
+    font-size: 2em;
+    border: 5px solid white;
+    border-radius: 20px;
+    transition: 0.7s;
+    font-family: 'Nova Oval', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+.Form-button:hover{
+    border: 5px solid rgb(183, 0, 255);
+    color: rgb(0, 217, 255);
+    background: rgb(247, 0, 255);
+    box-shadow: 0 0 20px rgb(183, 0, 255);
+    box-shadow: 0 0 15px rgb(255, 0, 255);
+    box-shadow: 0 0 10px rgb(0, 217, 255);
+    font-family: 'Nova Oval', cursive;
+}
+
+
+.moderator-form{
+    position: relative;
+    left: 650px;
+    font-size: 5em;
+}
+
+.yet{
+    position: relative;
+    left: 1670px;
+    top: -200px;
+    transition: 0.5s;
+}
+
+.yet:hover{
+    color: red;
+    text-shadow: 0 0 15px red;
+}
+
+
+.teaser{
+    position: relative;
+    left: 780px;
+    font-size: 60px;
+    transform: rotate(5deg);
+}
+
+.vid{
+    position: relative;
+    left: 400px;
+    transform: rotate(3deg);
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.vid:hover{
+    border-radius: 40px;
+    border: 10px solid rgb(255, 0, 242);
+    box-shadow: 0 0 10px rgb(255, 0, 242);
+    transform: rotate(-3deg);
+}
